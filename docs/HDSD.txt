@@ -1,0 +1,17 @@
+- Cài đặt PHP (từ phiên bản 7.2 trở lên)
+
+- Cài đặt Xampp
+
+- Cài đặt Composer
+
+- Tải dự án về máy: git clone https://github.com/Hieu-Thao/tn-da20ttb-110120070-LeThiHieuThao-QLHDNNC-laravel.git
+
+- Import dữ liệu từ DA20TTB_TN_LeThiHieuThao_110120070_DB trong thư mục public/DB (có dữ liệu mẫu)
+
+- Thay đổi cài đặt trong tệp .env:
+   DB_CONNECTION
+   DB_DATABASE
+   DB_USERNAME
+   DB_PASSWORD
+
+- Xóa thư mục ava, ppt, uploads trong public rồi sử dụng lệnh: “php artisan storage:link”
